@@ -1,5 +1,5 @@
-#deepsleep
-##Sleep analysis with deep learning.
+# deepsleep
+## Sleep analysis with deep learning.
 
 The aim of this project is to be able to accurately predict the quality of a nights sleep based on a timelapse of the subject in bed.
 
