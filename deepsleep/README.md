@@ -29,7 +29,8 @@ Steps:
 4. Test program on new images
 
 ---
-The main goal is to get the program to accurately predict if the subject in a photo is **awake** or **asleep**. If that goal is ever actually met, the end goal is to take the program further, to the point that it can accuarately predict how well the subject slept. Taking into consideration how often the subject moves, body orientation, if/when they got up to pee in the night, how long it took to fall asleep/wake up, and other such factors, a more accurate prediction of sleep cycles should emerge. The training can be improved tremendously using data like actual brain activity scans during the timelapse recorded sleep cycles.
+The main goal is to get the program to accurately predict if the subject in a photo is **awake** or **asleep**.  
+###### If that goal is ever actually met, the end goal is to take the program further, to the point that it can accuarately predict how well the subject slept. Taking into consideration how often the subject moves, body orientation, if/when they got up to pee in the night, how long it took to fall asleep/wake up, and other such factors, a more accurate prediction of sleep cycles should emerge. The training can be improved tremendously using data like actual brain activity scans during the timelapse recorded sleep cycles.
 
 **In reality, this project is just a way for me to teach myself python, git, deep learning, etc, while learning more about my own sleep habits. I don't foresee ever getting close to completing this project.**  
 ###### Would be neat though.
@@ -73,3 +74,4 @@ If I can get each individual part to work, I hope to some day write a master pro
 
 [1]: https://github.com/ch4bes/learning_python/blob/master/deepsleep/code/capture_image.py
 [2]: https://github.com/ch4bes/learning_python/blob/master/deepsleep/code/timelapse.py
+[3]: https://github.com/ch4bes/learning_python/blob/master/deepsleep/code/image_sort.py
