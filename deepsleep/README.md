@@ -15,14 +15,13 @@ Steps:
 2. Organize images into folders for training data
 
     - Individual folders for each tag  
-    
-      * unknowns go in skipped folder (could be used for future training/analysis)
+      - unknowns go in skipped folder (could be used for future training/analysis)
     
     - Organizational structure looks like this:
 
-In Bed | Out of Bed | Skip
---- | --- | ---
-[Awake] / [Asleep] | [In Room] / [Out of Room] | [Skipped]
+      In Bed | Out of Bed | Skip
+      --- | --- | ---
+      [Awake] / [Asleep] | [In Room] / [Out of Room] | [Skipped]
 
 
 3. Use training data to train main sleep analysis program
