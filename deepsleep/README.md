@@ -4,22 +4,30 @@
 The aim of this project is to be able to accurately predict the quality of a nights sleep based on a timelapse of the subject in bed.
 
 Steps:
-- collect images of subject during sleep cycles
-    - Use cron & image capture program to capture image every minute
-    or
+1. Collect images of subject during sleep cycles
+
+    - Use cron & image capture program to capture image every minute  
+        ###### This method uses less resources than a python program running constantly in the background
+    ##### *or*
     - Use timelapse program (without cron)
-- organize images into folders for training data
-    - individual folders for each tag
-    - unknowns go in skipped folder (could be used for future training/analysis)
-    - organizational structure looks like this:
+        ###### Using straight python instead of cron, this method uses more resources but requires less setup
+        
+2. Organize images into folders for training data
+
+    - Individual folders for each tag  
+    
+      * unknowns go in skipped folder (could be used for future training/analysis)
+    
+    - Organizational structure looks like this:
 
 In Bed | Out of Bed | Skip
 --- | --- | ---
 [Awake] / [Asleep] | [In Room] / [Out of Room] | [Skipped]
 
 
-- use training data to train main sleep analysis program
-- test program on new images
+3. Use training data to train main sleep analysis program
+
+4. Test program on new images
 
 ---
 The main goal is to get the program to accurately predict if the subject in a photo is **awake** or **asleep**. If that goal is ever actually met, the end goal is to take the program further, to a deeper level of complexity. Taking into consideration how often the subject moves, body orientation, if/when they got up to pee in the night, how long it took to fall asleep/wake up, and other such factors, a more accurate prediction of sleep cycles should emerge. The training can be improved tremendously using data like actual brain activity scans during the timelapse recorded sleep cycles.
