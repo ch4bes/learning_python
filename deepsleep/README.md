@@ -55,9 +55,9 @@ In reality, this project is just a way for me to teach myself python, git, deep 
 
 Once we have a large enough set of images, we need to organize them into individual folders to streamline the training process. Is the subject **_in bed_** or **_out of bed_**? Is the subject in bed **_awake_** or **_asleep_**? etc. (however deep we want to go)
 
-Code is mostly written. Need to get GUI to work properly with tkinter.
-Code not added yet.
+Use [image_sort.py][3] to organize images into folders.
 
+### Next Steps
 #### Step 3: Train
 
 Code needs to be written
@@ -65,6 +65,10 @@ Code needs to be written
 #### Step 4: Test
 
 Code needs to be written
+
+---
+
+If I can get each individual part to work, I hope to some day write a master program that pieces it all together.
 
 [1]: https://github.com/ch4bes/learning_python/blob/master/deepsleep/code/capture_image.py
 [2]: https://github.com/ch4bes/learning_python/blob/master/deepsleep/code/timelapse.py
