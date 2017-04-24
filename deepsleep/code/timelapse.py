@@ -9,10 +9,10 @@ def wait():
     sleep(delay)
 
 camera = PiCamera()
-camera.resolution = (1600, 1200)
+camera.resolution = (1600, 1200) # set to desired resolution
 
 camera.start_preview()
 wait()
-for filename in camera.capture_continuous('/home/pi/learning_python/deepsleep/images/img-{timestamp:%Y-%m-%d-%H-%M}.jpg'):
+for filename in camera.capture_continuous('~/learning_python/deepsleep/images/img-{timestamp:%Y-%m-%d-%H-%M}.jpg'):
     print('Captured %s' % filename)
     wait()
