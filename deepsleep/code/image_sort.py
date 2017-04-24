@@ -5,7 +5,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 main_dir = '~/deepsleep/images'
-master_dir = main_dir + '/master
+master_dir = main_dir + '/master'
 sorted_dir = main_dir + '/sorted'
 temp_dir = sorted_dir + '/temp'
 skipped_dir = sorted_dir + '/skipped'
